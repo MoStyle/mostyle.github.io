@@ -14,14 +14,7 @@ defineProps({
     <div
       class="layout"
     >
-      <!-- <NuxtImg
-        v-for="(image, index) in images"
-        :key="index"
-        :src="image"
-        :width="16"
-        :height="9"
-      /> -->
-      <img 
+      <NuxtImg 
         v-for="(image, index) in images"
         :key="index"
         :src="image"
