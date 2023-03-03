@@ -1,0 +1,275 @@
+ul.horiz {
+  list-style-type: none;
+  padding: 0;
+  margin: 1em;
+  text-align: center;
+}
+
+ul.horiz li {
+  padding: 0 0.5rem;
+  display: inline-block;
+}
+
+ul.authors {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+ul.institutions {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+/* Titre avec le resume de la requete, le nb de publis, ...*/
+div.ZoneTitreResultat {
+  padding-left: 10px;
+  width: 95%;
+}
+
+.TitreResultats {
+  color: #554236;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.SousTitreResultats {
+  margin: 0px 0px 40px;
+  color: #554236;
+}
+
+.ErreurResultats {
+  margin: 0px 0px 40px;
+  padding: 0px;
+  color: red;
+}
+
+/*Libelle du nombre de publications affichees*/
+.LibelleNbPubli {
+  margin: 0px 0px 40px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/*valeur du nombre de publications affichees*/
+.ValeurNbPubli {
+  margin: 0px 0px 40px;
+  font-size: 1.1em;
+}
+
+/* classes pour les rubriques pour certains type de classement (type de publi, annee de publi) */
+.Rubrique {
+  font-size: x-large;
+  color: #00adef;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: left;
+  padding: 2px 2px 2px 5px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  border-bottom: solid 1px #554236;
+}
+
+.SousRubrique {
+  font-weight: bold;
+  margin-left: 10px;
+  border-bottom: solid 1px #999999;
+  font-size: 1.3em;
+  color: #554236;
+}
+
+.SousRubrique {
+  color: #554236;
+  font-weight: bold;
+  margin-left: 0.4em;
+}
+
+/* Classe le dl qui contient chaque publication */
+.NoticeRes {
+  padding-bottom: 0.5em;
+  margin: 0 0 1em;
+}
+
+.NoticeResAvecVignette {
+  padding-bottom: 1em;
+}
+
+/*classe dt qui permmettent d'afficher les noms des champs */
+.ChampRes {
+  clear: both;
+  float: left;
+  text-align: left;
+  /* font-size:0.9em; */
+  font-weight: bold;
+  width: 23%;
+  margin-left: 1em;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding: 0em;
+}
+
+.ChampResAvecVignette {
+  display: none;
+  width: 15%;
+  text-align: left;
+  color: #58529F;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding: 0em;
+  margin-left: 120px;
+}
+
+/* classes dd pour l'affichage de la valeur des champs
+/* Nom du champ : titre, auteur, detail, acces au texte integral... 
+- pratique pour connaitre le nom du champ et la classe css associee 
+- ne fonctionne pas si on affiche les vignettes */
+
+/* Classe commune a tous les champs affiches */
+.ValeurRes {
+  margin-left: 25%;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding: 0em;
+  text-align: left;
+}
+
+.ValeurRes a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* quand il y a affichage de vignette */
+.ValeurResAvecVignette {
+  margin-left: 120px;
+  margin-bottom: 0.15em;
+  margin-top: 0.15em;
+  padding: 0em;
+  text-align: left;
+}
+
+.ValeurResAvecVignette a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* classe pour les auteurs */
+.Auteurs {
+  font-size: $dt('fontSize.lg');
+}
+
+/* classe pour les titres */
+.Titre {
+  font-size: $dt('fontSize.xl');
+  font-weight: bold;
+}
+
+.Titre a:link {  
+  font-weight: bold;
+  color: #F77825;
+}
+
+.Titre a:hover {
+  color: #F77825;
+  text-decoration: underline;
+}
+
+.Titre a:visited {
+  color: #F77825;
+}
+
+/* classe pour les identifiants */
+.Identifiant {}
+
+/* classe des details de publication : une classe par type */
+.detail_revue,
+.detail_conf,
+.detail_cours,
+.detail_ouv,
+.detail_hdr,
+.detail_these,
+.detail_autre,
+.detail_brevet,
+.detail_rapport,
+.detail_sans_ref {}
+
+/* classe pour les doi */
+.DOI {
+  font-size: $dt('fontSize.xs');
+  font-weight: normal;
+}
+
+.DOI a {
+  color: #00adef;
+  font-weight: normal;
+}
+
+/* classe pour les resumes */
+.Debut_du_resume {}
+
+/* classe pour le type de document */
+.Type_de_document {}
+
+/* classe pour l'audience */
+.Audience {}
+
+/* affichage des vignettes*/
+.Vignette {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  /* -moz-box-shadow: 0px 0px 3px 3px #aeaeae;
+  -webkit-box-shadow: 0px 0px 3px 3px #aeaeae;
+  box-shadow: 0px 0px 3px 3px #aeaeae; */
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  background-repeat: no-repeat;
+  float: left;
+  clear: left;
+  margin-left: 0.5em;
+  margin-right: 1em;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.Vignette:after {
+  content: "";
+  display: -moz-inline-stack;
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.VignetteImg {
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.VignetteImg img {
+  margin: 0 0 0 0;
+}
+
+.Vignette:hover {
+  -ms-transform: scale(1.05, 1.05);
+  -moz-transform: scale(1.05, 1.05);
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+}
+
+/*affichage des fichiers joints*/
+.Fichier_joint a {
+  text-decoration: none;
+}
+
+.LienBibtexACoteFulltext {
+  margin-left: 0;
+}
+
+.article a {
+  font-size: $dt('fontSize.base');
+  display: none;
+}
