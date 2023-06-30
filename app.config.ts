@@ -24,7 +24,7 @@ export default defineAppConfig({
       credits: {
         enabled: false, // possible value are : true | false
         text: 'MoStyle',
-        repository: 'https://github.com/benardp/mostyle' // our github repository
+        repository: 'https://github.com/mostyle' // our github repository
       },
       navigation: false, // possible value are : true | false
       alignment: 'center', // possible value are : 'none' | 'left' | 'center' | 'right'
@@ -34,7 +34,7 @@ export default defineAppConfig({
       github: {
         icon: 'uil:github',
         label: 'GitHub',
-        href: 'https://github.com/benardp/mostyle'
+        href: 'https://github.com/mostyle'
       },
       vimeo: {
         icon: 'uil:video',
