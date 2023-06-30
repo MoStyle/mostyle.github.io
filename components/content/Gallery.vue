@@ -21,7 +21,7 @@ defineProps({
         :width="16"
         :height="9"
         class="image-zoomable"
-        />
+      />
     </div>
   </section>
 </template>
