@@ -17,7 +17,8 @@
     "@types/node": "^20.14.8",
     "eslint": "^9.5.0",
     "medium-zoom": "^1.1.0",
-    "nuxt": "^3.12.2"
+    "nuxt": "^3.12.2",
+    "pinceau": "0.15.4"
   },
   "packageManager": "pnpm@8.15.4+sha256.cea6d0bdf2de3a0549582da3983c70c92ffc577ff4410cbf190817ddc35137c2"
 }
