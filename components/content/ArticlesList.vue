@@ -9,7 +9,7 @@ const props = defineProps({
   useFeatured: {
     type: Boolean,
     default: true
-  }
+  },
 })
 
 // @ts-ignore
@@ -27,7 +27,7 @@ const articles = computed(() => _articles.value || [])
       <ArticlesListItem v-for="(article, index) in articles.slice(1)" :key="index" :article="article" />
     </div>
     <div v-else class="layout">
-      <ArticlesListItem v-for="(article, index) in articles" :key="index" :article="article" />
+      <ArticlesListItem v-for="(article, index) in articles.slice(0,3)" :key="index" :article="article" />
     </div>
   </div>
   <div v-else class="tour">
