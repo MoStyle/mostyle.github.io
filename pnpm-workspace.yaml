@@ -1,12 +1,8 @@
 allowBuilds:
-  '@parcel/watcher': set this to true or false
-  esbuild: set this to true or false
-  unrs-resolver: set this to true or false
-  vue-demi: set this to true or false
+  '@parcel/watcher': false
+  esbuild: false
+  unrs-resolver: false
+  vue-demi: false
 minimumReleaseAgeExclude:
   - '@types/node@26.3.0'
   - eslint@10.9.1
-onlyBuiltDependencies:
-  - '@parcel/watcher'
-  - esbuild
-  - vue-demi
