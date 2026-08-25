@@ -11,14 +11,14 @@
   },
   "devDependencies": {
     "@nuxt-themes/alpine": "latest",
-    "@nuxt/devtools": "^1.0.8",
-    "@nuxt/eslint-config": "^0.2.0",
-    "@nuxtjs/plausible": "^0.2.4",
-    "@types/node": "^20.11.24",
-    "eslint": "^8.57.0",
-    "nuxt": "^3.10.3",
-    "@nuxthq/studio": "^2.0.3",
+    "@nuxt/devtools": "^3.4.2",
+    "@nuxt/eslint-config": "^1.17.0",
+    "@nuxtjs/plausible": "^4.0.0",
+    "@types/node": "^26.3.0",
+    "eslint": "^10.9.1",
+    "nuxt": "^4.5.2",
+    "@nuxthq/studio": "^2.2.1",
     "medium-zoom": "^1.1.0"
   },
-  "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39"
+  "packageManager": "pnpm@11.23.0"
 }
