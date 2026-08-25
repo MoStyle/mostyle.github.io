@@ -1,5 +1,5 @@
 import { defineNuxtPlugin } from '#app'
-import mediumZoom, { Zoom } from 'medium-zoom'
+import mediumZoom, { type Zoom } from 'medium-zoom'
 import { useDebounceFn } from '@vueuse/core'
 
 export default defineNuxtPlugin((nuxtApp) => {
